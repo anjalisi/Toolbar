@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionModeOverlay">true</item>
+<!--        <item name="actionModeCloseDrawable">@drawable/ic_refresh_black_24dp</item>-->
+        <item name="actionModeStyle">@style/MyActionMode</item>
+    </style>
+
+    <style name="MyActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/contextual_bga</item>
+        <item name="titleTextStyle">@style/MyActionBarTextstlye</item>
+    </style>
+
+
+    <style name="MyActionBarTextstlye" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionBar_texta</item>
+    </style>
+
+
+
+    <style name="MyCutomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="android:textColorSecondary">#000</item>
+
+    </style>
+
+    <style name="MyPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#00f</item>
+        <item name="android:background">#cCCFFF</item>
+
+    </style>
+
+    <color name="contextual_bg" />
+    <color name="actionBar_text" />
+</resources>
